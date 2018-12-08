@@ -1,10 +1,7 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "whatsapp-bot",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "A general purpose whatsapp bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,18 +10,20 @@
     "dotenv": "^6.2.0",
     "express": "^4.16.3",
     "request": "^2.88.0",
-    "twilio": "^4.6.0"
+    "twilio": "^4.6.0",
+    "axios": "0.18.0"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/samik-saha/whatsapp-bot"
   },
-  "license": "MIT",
+  "license": "GPL",
   "keywords": [
+    "twilo",
+    "whatsapp",
     "node",
-    "glitch",
     "express"
   ]
 }
